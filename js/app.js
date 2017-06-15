@@ -37,9 +37,9 @@ new Vue({
     methods:{
         VueShowAlert: function(){
             if (this.firstName != '' && this.lastName != '') {
-                alert(this.firstName + ' ' +  this.lastName)
+                swal(this.firstName + ' ' +  this.lastName)
             }else{
-                alert('Please fill this fields!')
+                swal('Please fill this fields!')
             }
         },
         VueChangeEmpty: function(){
